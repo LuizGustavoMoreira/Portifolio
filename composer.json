@@ -1,5 +1,5 @@
 {
-    "name": "LuizGustavoMoreira/php-classes",
+    "name": "luizgustavomoreira/php-classes",
     "minimum-stability": "dev",
     "type": "library",
     "description": "Classes PHP",
@@ -12,11 +12,13 @@
     ],
     "require": {
         "php": ">=7.0",
-        "rain/raintpl":"3.0.0"
+        "rain/raintpl":"3.0.0",
+        "phpmailer/phpmailer": "dev-master",
+        "slim/slim": "2.*"
     },
     "autoload": {
         "psr-4": {
-            "": "src"
+            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
         }
     }
 }
