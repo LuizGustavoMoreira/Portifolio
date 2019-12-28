@@ -1,98 +1,60 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?><div class="footer-top-area">
-    <div class="zigzag-bottom"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <div class="footer-about-us">
-                    <h2>Hcode Store</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
-                    <div class="footer-social">
-                        <a href="https://www.facebook.com/hcodebr" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/hcodebr" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="https://www.youtube.com/channel/UCjWENuSH2gX55-y7QSZiWxA" target="_blank"><i class="fa fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-3 col-sm-6">
-                <div class="footer-menu">
-                    <h2 class="footer-wid-title">Navegação </h2>
-                    <ul>
-                        <li><a href="#">Minha Conta</a></li>
-                        <li><a href="#">Meus Pedidos</a></li>
-                        <li><a href="#">Lista de Desejos</a></li>
-                    </ul>                        
-                </div>
-            </div>
-            
-            <div class="col-md-3 col-sm-6">
-                <div class="footer-menu">
-                    <h2 class="footer-wid-title">Categorias</h2>
-                    <ul>
-                        <li><a href="#">Categoria Um</a></li>
-                        <li><a href="#">Categoria Dois</a></li>
-                        <li><a href="#">Categoria Três</a></li>
-                        <li><a href="#">Categoria Quarto</a></li>
-                        <li><a href="#">Categoria Cinco</a></li>
-                    </ul>                        
-                </div>
-            </div>
-            
-            <div class="col-md-3 col-sm-6">
-                <div class="footer-newsletter">
-                    <h2 class="footer-wid-title">Newsletter</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus!</p>
-                    <div class="newsletter-form">
-                        <form action="#">
-                            <input type="email" placeholder="Type your email">
-                            <input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+<?php if(!class_exists('Rain\Tpl')){exit;}?> <!-- Footer -->
+ <footer class="sticky-footer bg-white">
+    <div class="container my-auto">
+      <div class="copyright text-center my-auto">
+        <span>Copyright &copy; Suply 2019</span>
+      </div>
     </div>
-</div> <!-- End footer top area -->
+  </footer>
+  <!-- End of Footer -->
 
-<div class="footer-bottom-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="copyright">
-                    <p>&copy; 2017 Hcode Treinamentos. <a href="http://www.hcode.com.br" target="_blank">hcode.com.br</a></p>
-                </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div class="footer-card-icon">
-                    <i class="fa fa-cc-discover"></i>
-                    <i class="fa fa-cc-mastercard"></i>
-                    <i class="fa fa-cc-paypal"></i>
-                    <i class="fa fa-cc-visa"></i>
-                </div>
-            </div>
-        </div>
+</div>
+<!-- End of Content Wrapper -->
+
+</div>
+<!-- End of Page Wrapper -->
+
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded" href="#page-top">
+<i class="fas fa-angle-up"></i>
+</a>
+
+<!-- Logout Modal-->
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+      <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">×</span>
+      </button>
     </div>
-</div> <!-- End footer bottom area -->
+    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+      <a class="btn btn-primary" href="login.html">Logout</a>
+    </div>
+  </div>
+</div>
+</div>
 
-<!-- Latest jQuery form server -->
-<script src="https://code.jquery.com/jquery.min.js"></script>
+<!-- Bootstrap core JavaScript-->
+<script src="/res/site/vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Bootstrap JS form CDN -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!-- Core plugin JavaScript-->
+<script src="/res/site/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-<!-- jQuery sticky menu -->
-<script src="/res/site/js/owl.carousel.min.js"></script>
-<script src="/res/site/js/jquery.sticky.js"></script>
+<!-- Custom scripts for all pages-->
+<script src="/res/site/js/sb-admin-2.min.js"></script>
 
-<!-- jQuery easing -->
-<script src="/res/site/js/jquery.easing.1.3.min.js"></script>
+<!-- Page level plugins -->
+<script src="/res/site/vendor/chart.js/Chart.min.js"></script>
 
-<!-- Main Script -->
-<script src="/res/site/js/main.js"></script>
+<!-- Page level custom scripts -->
+<script src="/res/site/js/demo/chart-area-demo.js"></script>
+<script src="/res/site/js/demo/chart-pie-demo.js"></script>
 
-<!-- Slider -->
-<script type="text/javascript" src="/res/site/js/bxslider.min.js"></script>
-<script type="text/javascript" src="/res/site/js/script.slider.js"></script>
 </body>
+
 </html>
