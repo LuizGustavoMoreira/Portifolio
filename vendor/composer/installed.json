@@ -65,36 +65,48 @@
     },
     {
         "name": "rain/raintpl",
-        "version": "3.0.0",
-        "version_normalized": "3.0.0.0",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/rainphp/raintpl3.git",
-            "reference": "5bfdf4602b8adb0e80b222fa29ac559aa9c06abf"
+            "url": "https://github.com/feulf/raintpl3.git",
+            "reference": "d98ffecfa4832608fab551548d2e032283279e46"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/rainphp/raintpl3/zipball/5bfdf4602b8adb0e80b222fa29ac559aa9c06abf",
-            "reference": "5bfdf4602b8adb0e80b222fa29ac559aa9c06abf",
+            "url": "https://api.github.com/repos/feulf/raintpl3/zipball/d98ffecfa4832608fab551548d2e032283279e46",
+            "reference": "d98ffecfa4832608fab551548d2e032283279e46",
             "shasum": ""
         },
-        "time": "2012-12-24T05:24:32+00:00",
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.4.*"
+        },
+        "time": "2019-10-04T20:45:06+00:00",
         "type": "library",
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-0": {
                 "Rain": "library/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
         "authors": [
             {
                 "name": "Federico Ulfo",
-                "email": "rainelemental@gmail.com",
-                "homepage": "http://github.com/rainphp"
+                "email": "rainelemental@gmail.com"
+            },
+            {
+                "name": "Rain Community"
             }
         ],
-        "description": "easy and fast template engine"
+        "description": "easy and fast template engine",
+        "homepage": "http://raintpl.com"
     },
     {
         "name": "slim/slim",

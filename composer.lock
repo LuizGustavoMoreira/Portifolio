@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "136d2800129fea76b4e1ad4fc1f9dcd6",
+    "content-hash": "04735bc6638ed9cc54d839d9a3eb3280",
     "packages": [
         {
             "name": "phpmailer/phpmailer",
@@ -70,17 +70,23 @@
         },
         {
             "name": "rain/raintpl",
-            "version": "3.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/rainphp/raintpl3.git",
-                "reference": "5bfdf4602b8adb0e80b222fa29ac559aa9c06abf"
+                "url": "https://github.com/feulf/raintpl3.git",
+                "reference": "d98ffecfa4832608fab551548d2e032283279e46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rainphp/raintpl3/zipball/5bfdf4602b8adb0e80b222fa29ac559aa9c06abf",
-                "reference": "5bfdf4602b8adb0e80b222fa29ac559aa9c06abf",
+                "url": "https://api.github.com/repos/feulf/raintpl3/zipball/d98ffecfa4832608fab551548d2e032283279e46",
+                "reference": "d98ffecfa4832608fab551548d2e032283279e46",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.4.*"
             },
             "type": "library",
             "autoload": {
@@ -89,15 +95,21 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Federico Ulfo",
-                    "email": "rainelemental@gmail.com",
-                    "homepage": "http://github.com/rainphp"
+                    "email": "rainelemental@gmail.com"
+                },
+                {
+                    "name": "Rain Community"
                 }
             ],
             "description": "easy and fast template engine",
-            "time": "2012-12-24T05:24:32+00:00"
+            "homepage": "http://raintpl.com",
+            "time": "2019-10-04T20:45:06+00:00"
         },
         {
             "name": "slim/slim",
@@ -151,7 +163,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "phpmailer/phpmailer": 20
+        "phpmailer/phpmailer": 20,
+        "rain/raintpl": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
