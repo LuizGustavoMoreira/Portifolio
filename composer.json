@@ -12,9 +12,9 @@
     ],
     "require": {
         "php": ">=7.0",
-        "rain/raintpl":"3.0.0",
         "phpmailer/phpmailer": "dev-master",
-        "slim/slim": "2.*"
+        "slim/slim": "2.*",
+        "rain/raintpl": "dev-master"
     },
     "autoload": {
         "psr-4": {
